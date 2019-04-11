@@ -115,6 +115,40 @@ img{
 .desc-1{font-size:40px;font-weight:700;line-height:1.2;margin:26px auto 18px;font-family:'Museo Cyrl',sans-serif;position:relative;}.desc-1__sub{margin-bottom:20px;font-weight:100;font-size:18px;line-height:1.5;}.desc-1__sub-2{margin-bottom:20px;font-weight:500;font-size:16px;line-height:1.5;}.desc-1__unvisible{visibility:hidden;position:relative;}.desc-1__animation{display:block;position:absolute;top:0;left:0;}.desc-1__animation::after{content:' |';-webkit-animation:cursor 700ms infinite normal ease-in-out both;animation:cursor 700ms infinite normal ease-in-out both;}.desc-2{color:#6c727e;font-size:12px;}.desc-3{margin:10px auto 18px;text-align:center;font-size:1.4rem;font-weight:700;font-family:'Museo Cyrl',sans-serif;}.desc-3__sup{font-weight:500;font-size:16px;color:#34a9d8;text-align:center;}.desc-3__sub{margin:0 auto;font-weight:300;font-size:16px;color:#6c727e;text-align:center;}.slider{position:relative;z-index:1;padding-bottom:80px;}
 @-webkit-keyframes cursor{0%{opacity:0;}100%{opacity:1;}}@keyframes cursor{0%{opacity:0;}100%{opacity:1;}}
 /* Стили слайдера end */
+.section-form{
+    background: #029ece;
+    padding: 50px 0;
+    color: #fff;
+}
+.form-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 40px;
+}
+.form-btn{
+    background: #10242d;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn{
+    outline: none;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover {
+    color: #029ece;
+    text-decoration: none;
+    outline: none;
+}
+.form{
+    width: 70%;
+    margin: 0 auto;
+}
+.form-control{
+    margin-bottom: 10px;
+}
 .section-main{
     width: 100%;
     height: 844px;
