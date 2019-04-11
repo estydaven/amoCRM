@@ -143,7 +143,7 @@ img{
     outline: none;
 }
 .form{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 .form-control{
@@ -907,6 +907,11 @@ img{
         width: 53%;
     }
 }
+@media screen and (max-width:1390px){
+    .form {
+        width: 90%;       
+    }
+}
 @media screen and (max-width:1360px){
     .main-list__item_arrow-one::after {
         right: -103px;
@@ -942,10 +947,16 @@ img{
     .section-two__block {
         padding-right: 74px;
     }
+    .form{
+        width: 100%;
+    }
 }
 @media screen and (max-width:1200px){
     .section__title{
         font-size: 65px;
+    }
+    .form {
+        width: 50%;
     }
     .lidgen-wrapper {
         width: 90%;        
@@ -1290,6 +1301,9 @@ img{
     }
 }
 @media screen and (max-width:480px){
+    .form {
+        width: 100%;
+    }
     .section__title {
         font-size: 35px;
     }
